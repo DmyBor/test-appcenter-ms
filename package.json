@@ -1,0 +1,23 @@
+{
+  "name": "appcentercli",
+  "version": "1.0.0",
+  "description": "CLI for ms appcenter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^4.1.2",
+    "commander": "^9.2.0",
+    "conf": "^10.1.2"
+  },
+  "bin": {
+    "appcenter": "./index.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0"
+  }
+}
